@@ -1,5 +1,5 @@
 var mongoose    =   require("mongoose");
-mongoose.connect('mongodb://localhost:27017/demoDb');
+mongoose.connect('mongodb://sys:sys@ds157342.mlab.com:57342/erl');
 mongoose.set('debug', true);
 
 // create instance of Schema
