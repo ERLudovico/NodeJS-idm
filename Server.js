@@ -19,5 +19,5 @@ router.get("/",function(req,res){
 
 require('./routes')(app);
 
-app.listen(3000);
+app.listen(process.env.PORT || 5000)
 console.log("Listening to PORT 3000");
